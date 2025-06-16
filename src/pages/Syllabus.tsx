@@ -160,7 +160,6 @@ const Syllabus = () => {
                     <SelectValue placeholder="Select Category" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">All Categories</SelectItem>
                     <SelectItem value="Central Government">Central Government</SelectItem>
                     <SelectItem value="Banking">Banking</SelectItem>
                     <SelectItem value="Railway">Railway</SelectItem>
@@ -172,7 +171,6 @@ const Syllabus = () => {
                     <SelectValue placeholder="Difficulty Level" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">All Levels</SelectItem>
                     <SelectItem value="Easy">Easy</SelectItem>
                     <SelectItem value="Medium">Medium</SelectItem>
                     <SelectItem value="Hard">Hard</SelectItem>
