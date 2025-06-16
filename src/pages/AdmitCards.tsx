@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -173,7 +172,6 @@ const AdmitCards = () => {
                   <SelectValue placeholder="Select Category" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Categories</SelectItem>
                   <SelectItem value="Central Government">Central Government</SelectItem>
                   <SelectItem value="Banking">Banking</SelectItem>
                   <SelectItem value="Railway">Railway</SelectItem>
@@ -186,7 +184,6 @@ const AdmitCards = () => {
                   <SelectValue placeholder="Select Status" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Status</SelectItem>
                   <SelectItem value="Available">Available</SelectItem>
                   <SelectItem value="Coming Soon">Coming Soon</SelectItem>
                   <SelectItem value="Delayed">Delayed</SelectItem>
